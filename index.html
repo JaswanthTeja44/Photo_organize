@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Tag Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>📷 Photo Tag Organizer</header>
+  <div class="container">
+    <input type="file" id="photoUpload" accept="image/*" />
+    <input type="text" id="tagInput" placeholder="Enter tags separated by commas" />
+    <button onclick="addPhoto()">Add Photo</button>
+
+    <h3>Filter by Tag</h3>
+    <div class="tags-input" id="tagFilter"></div>
+
+    <div class="photo-grid" id="photoGrid"></div>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
